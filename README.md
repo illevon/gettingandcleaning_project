@@ -16,7 +16,7 @@ In the repository you may find:
 
  - the R script named 'run_analysis.R'. This script also contains the step by step documentation of the transformation applied to the source data
  - the Code book named 'CodeBook.md', which describes the data used, as well as the transformations and resulting dataset of 'run_analysis.R'
- - and this readme file named 'README.md' which lists all files in the repo. Below you may also find the R script mit Dokumentation:
+ - and this readme file named 'README.md' which lists all files in the repo. Below you may also find the R script with documentation of steps:
  
 ## Documentation of Rscript:
 
