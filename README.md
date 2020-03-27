@@ -20,20 +20,31 @@ In the repository you may find:
  
 ## Documentation of Rscript:
 
-### set working directory to UCI HAR Dataset folder and load all necessary libraries
+set working directory to UCI HAR Dataset folder and load all necessary libraries
+
 `rm(list=ls())
+
 setwd(".03data/UCI HAR Dataset")
+
 library(data.table)
+
 library(dplyr)
+
 library(reshape2)`
 
-First Task: Merges the training and the test sets to create one data set.
+### First Task: Merges the training and the test sets to create one data set.
 load test data:
+
 `testSubjects<-read.delim("./test/subject_test.txt", header = FALSE, sep = "", col.names = "subject")`
+
 the 561 length feature vector:
+
 `testFeatures<-read.delim("./test/X_test.txt", header = FALSE, sep = "")
+
 head(testFeatures)
+
 dim(testFeatures)`
+
 the activity label:
 `testActivity<-read.delim("./test/Y_test.txt", header = FALSE, sep = "", col.names = "activity")
 head(testActivity)
